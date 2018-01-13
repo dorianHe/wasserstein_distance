@@ -6,7 +6,7 @@ Wasserstein distance is distance between two distributions. In computer science,
 
 ...
 
-** A more mathematical explanation will be given in the near future. **
+*A more mathematical explanation will be given in the near future.*
 
 # Applications of Wasserstein distance
 ## Using EMD to exhibit the structure of color-distribution
@@ -14,7 +14,7 @@ In this application, the images are clustered according to pixels. In [3], the i
 
 ...
 
-** A complete implementation will be given in the near future. **
+*A complete implementation will be given in the near future.*
 
 ## Using EMD in GAN
 
