@@ -5,14 +5,16 @@ Wasserstein Distance or Earth Mover's Distance explanation and its application.
 Wasserstein distance is distance between two distributions. In computer science, it is called the Earth Mover's Distance(EMD). EMD can be found by solving a transportation problem.
 
 ...
-*** A more mathematical explanation will be given in the near future.***
+
+*A more mathematical explanation will be given in the near future.*
 
 # Applications of Wasserstein distance
 ## Using EMD to exhibit the structure of color-distribution
 In this application, the images are clustered according to pixels. In [3], the images are clustered by kd-tree. In my example, I used kmeans. I chose 20 as the number of clusters for image one, 10 as the number of clusters for image two. Each $m$ in signatrue is each center of the cluster, which is a 3-dimensional data point(RGB). $w$ is the number of points that belongs to the corresponding cluster. Signatures in image one are considered as suppliers. Signatures in image two are consumers.
 
 ...
-*** A complete implementation will be given in the near future. ***
+
+*A complete implementation will be given in the near future.*
 
 ## Using EMD in GAN
 
